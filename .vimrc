@@ -11,12 +11,15 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-" Enable solarized theme
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdcommenter'
 
 " End plugins management
 call vundle#end()
+
+" Set leader to comma
+:let mapleader = ','
 
 " Disable automatic file type checking
 filetype off
