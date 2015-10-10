@@ -5,4 +5,4 @@
   * [Vundle](https://github.com/gmarik/vundle)
 
 ## Install
-Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start), open VIM and type `:PluginInstall`.
+Copy `.vimrc` to your home directory, install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start), open VIM and type `:PluginInstall`.
