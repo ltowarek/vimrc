@@ -6,22 +6,10 @@ set nocompatible
 " Set encodings
 set encoding=utf-8
 
-" Manage plugins
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'bling/vim-airline'
-Plugin 'scrooloose/nerdcommenter'
-
-" End plugins management
-call vundle#end()
-
 " Set leader to comma
 :let mapleader = ','
 
-" Disable automatic file type checking
+" Automatically check file type
 filetype off
 
 " Enable automatic language-dependent indenting
@@ -80,5 +68,3 @@ set scrolloff=3
 set background=dark
 colorscheme solarized
 
-" Configure Plugin vim-airline
-set laststatus=2
